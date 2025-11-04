@@ -5,7 +5,7 @@ on:
   branches: [ main ]
 jobs:
  build=angular-app:
-  run-on: ubuntu-latest
+  runs-on: ubuntu-latest
 
   steps: 
     - uses: actions/checkout@v6-beta
